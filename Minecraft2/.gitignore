@@ -34,3 +34,7 @@ bin/
 
 # Preferencia de GPU de cada equipo (se genera localmente)
 graphics.properties
+
+.env
+.env.*
+!.env.example
