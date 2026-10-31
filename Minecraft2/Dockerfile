@@ -20,5 +20,8 @@ WORKDIR /app
 COPY --from=build --chown=app:app /app.jar app.jar
 USER app
 
+# No hay endpoint HTTP en modo consola: se comprueba que /data sea escribible
+HEALTHCHECK --interval=10s --timeout=3s --start-period=5s --retries=3 CMD test -w /data || exit 1
+
 # Modo consola (no hay pantalla ni GPU en un contenedor) y mundos en /data/worlds
 ENTRYPOINT ["java", "-XX:MaxRAMPercentage=75", "-Dfile.encoding=UTF-8", "-Dmc2.console=true", "-Dmc2.worlds.dir=/data/worlds", "-jar", "/app/app.jar"]

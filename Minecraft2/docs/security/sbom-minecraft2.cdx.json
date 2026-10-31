@@ -1,0 +1,462 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:f2fb3942-5255-45e3-aad4-3e403022ae40",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-31T04:36:03+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "0.76.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "5f152cda-ebc9-4eb7-a231-2f5c1133cdae",
+      "type": "application",
+      "name": "/src/pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "3b0572b3-ef08-490e-b699-8138465d90ea",
+      "type": "application",
+      "name": "pom.xml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.badlogicgames.gdx/gdx-backend-lwjgl3@1.12.1",
+      "type": "library",
+      "group": "com.badlogicgames.gdx",
+      "name": "gdx-backend-lwjgl3",
+      "version": "1.12.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.badlogicgames.gdx/gdx-backend-lwjgl3@1.12.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.badlogicgames.gdx:gdx-backend-lwjgl3:1.12.1::ed3955f7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.badlogicgames.gdx/gdx-jnigen-loader@2.3.1",
+      "type": "library",
+      "group": "com.badlogicgames.gdx",
+      "name": "gdx-jnigen-loader",
+      "version": "2.3.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.badlogicgames.gdx/gdx-jnigen-loader@2.3.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.badlogicgames.gdx:gdx-jnigen-loader:2.3.1::2848e2de"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.badlogicgames.gdx/gdx-platform@1.12.1",
+      "type": "library",
+      "group": "com.badlogicgames.gdx",
+      "name": "gdx-platform",
+      "version": "1.12.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.badlogicgames.gdx/gdx-platform@1.12.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.badlogicgames.gdx:gdx-platform:1.12.1::9c3292d8"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.badlogicgames.gdx/gdx@1.12.1",
+      "type": "library",
+      "group": "com.badlogicgames.gdx",
+      "name": "gdx",
+      "version": "1.12.1",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.badlogicgames.gdx/gdx@1.12.1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.badlogicgames.gdx:gdx:1.12.1::4646314c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.badlogicgames.jlayer/jlayer@1.0.1-gdx",
+      "type": "library",
+      "group": "com.badlogicgames.jlayer",
+      "name": "jlayer",
+      "version": "1.0.1-gdx",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.badlogicgames.jlayer/jlayer@1.0.1-gdx",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "com.badlogicgames.jlayer:jlayer:1.0.1-gdx::1c6243a8"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/edu.minecraft2/minecraft2@0.1.0-SNAPSHOT",
+      "type": "library",
+      "group": "edu.minecraft2",
+      "name": "minecraft2",
+      "version": "0.1.0-SNAPSHOT",
+      "purl": "pkg:maven/edu.minecraft2/minecraft2@0.1.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "edu.minecraft2:minecraft2:0.1.0-SNAPSHOT::3e37e6f2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jcraft/jorbis@0.0.17",
+      "type": "library",
+      "group": "org.jcraft",
+      "name": "jorbis",
+      "version": "0.0.17",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jcraft/jorbis@0.0.17",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.jcraft:jorbis:0.0.17::678232e4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.lwjgl/lwjgl-glfw@3.3.3",
+      "type": "library",
+      "group": "org.lwjgl",
+      "name": "lwjgl-glfw",
+      "version": "3.3.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.lwjgl/lwjgl-glfw@3.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.lwjgl:lwjgl-glfw:3.3.3::e94f2ade"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.lwjgl/lwjgl-jemalloc@3.3.3",
+      "type": "library",
+      "group": "org.lwjgl",
+      "name": "lwjgl-jemalloc",
+      "version": "3.3.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.lwjgl/lwjgl-jemalloc@3.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.lwjgl:lwjgl-jemalloc:3.3.3::d840b660"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.lwjgl/lwjgl-openal@3.3.3",
+      "type": "library",
+      "group": "org.lwjgl",
+      "name": "lwjgl-openal",
+      "version": "3.3.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.lwjgl/lwjgl-openal@3.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.lwjgl:lwjgl-openal:3.3.3::c5878f0d"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.lwjgl/lwjgl-opengl@3.3.3",
+      "type": "library",
+      "group": "org.lwjgl",
+      "name": "lwjgl-opengl",
+      "version": "3.3.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.lwjgl/lwjgl-opengl@3.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.lwjgl:lwjgl-opengl:3.3.3::2e378720"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.lwjgl/lwjgl-stb@3.3.3",
+      "type": "library",
+      "group": "org.lwjgl",
+      "name": "lwjgl-stb",
+      "version": "3.3.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.lwjgl/lwjgl-stb@3.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.lwjgl:lwjgl-stb:3.3.3::edc6127c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.lwjgl/lwjgl@3.3.3",
+      "type": "library",
+      "group": "org.lwjgl",
+      "name": "lwjgl",
+      "version": "3.3.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.lwjgl/lwjgl@3.3.3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "org.lwjgl:lwjgl:3.3.3::aa8cd914"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "pom"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "3b0572b3-ef08-490e-b699-8138465d90ea",
+      "dependsOn": [
+        "pkg:maven/edu.minecraft2/minecraft2@0.1.0-SNAPSHOT"
+      ]
+    },
+    {
+      "ref": "5f152cda-ebc9-4eb7-a231-2f5c1133cdae",
+      "dependsOn": [
+        "3b0572b3-ef08-490e-b699-8138465d90ea"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.badlogicgames.gdx/gdx-backend-lwjgl3@1.12.1",
+      "dependsOn": [
+        "pkg:maven/com.badlogicgames.gdx/gdx@1.12.1",
+        "pkg:maven/com.badlogicgames.jlayer/jlayer@1.0.1-gdx",
+        "pkg:maven/org.jcraft/jorbis@0.0.17",
+        "pkg:maven/org.lwjgl/lwjgl-glfw@3.3.3",
+        "pkg:maven/org.lwjgl/lwjgl-jemalloc@3.3.3",
+        "pkg:maven/org.lwjgl/lwjgl-openal@3.3.3",
+        "pkg:maven/org.lwjgl/lwjgl-opengl@3.3.3",
+        "pkg:maven/org.lwjgl/lwjgl-stb@3.3.3",
+        "pkg:maven/org.lwjgl/lwjgl@3.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.badlogicgames.gdx/gdx-jnigen-loader@2.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.badlogicgames.gdx/gdx-platform@1.12.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.badlogicgames.gdx/gdx@1.12.1",
+      "dependsOn": [
+        "pkg:maven/com.badlogicgames.gdx/gdx-jnigen-loader@2.3.1"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.badlogicgames.jlayer/jlayer@1.0.1-gdx",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/edu.minecraft2/minecraft2@0.1.0-SNAPSHOT",
+      "dependsOn": [
+        "pkg:maven/com.badlogicgames.gdx/gdx-backend-lwjgl3@1.12.1",
+        "pkg:maven/com.badlogicgames.gdx/gdx-platform@1.12.1",
+        "pkg:maven/com.badlogicgames.gdx/gdx@1.12.1"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jcraft/jorbis@0.0.17",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.lwjgl/lwjgl-glfw@3.3.3",
+      "dependsOn": [
+        "pkg:maven/org.lwjgl/lwjgl@3.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.lwjgl/lwjgl-jemalloc@3.3.3",
+      "dependsOn": [
+        "pkg:maven/org.lwjgl/lwjgl@3.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.lwjgl/lwjgl-openal@3.3.3",
+      "dependsOn": [
+        "pkg:maven/org.lwjgl/lwjgl@3.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.lwjgl/lwjgl-opengl@3.3.3",
+      "dependsOn": [
+        "pkg:maven/org.lwjgl/lwjgl@3.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.lwjgl/lwjgl-stb@3.3.3",
+      "dependsOn": [
+        "pkg:maven/org.lwjgl/lwjgl@3.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.lwjgl/lwjgl@3.3.3",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}
