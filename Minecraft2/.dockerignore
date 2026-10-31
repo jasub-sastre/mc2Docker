@@ -1,0 +1,15 @@
+target/
+worlds/
+graphics.properties
+.git/
+.github/
+.idea/
+.vscode/
+docs/
+test/
+*.md
+jugar.sh
+.env
+.env.*
+docker-compose*.yml
+docker-compose*.yaml
